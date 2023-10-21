@@ -1,0 +1,6 @@
+langchain==0.0.320
+PyPDF2==3.0.1
+python-dotenv==1.0.0
+streamlit==1.27.2
+faiss-cpu==1.7.4
+
