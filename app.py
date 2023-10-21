@@ -44,9 +44,7 @@ def main():
                 llm=OpenAI(),
                 chain_type="stuff"
             )
-            with get_openai_callback() as callback:
-                response=chain.run(input_documents=docs,question=user_question)
-                print (cb)
+            response=chain.run(input_documents=docs,question=user_question)
             
             st.write(response)
 
